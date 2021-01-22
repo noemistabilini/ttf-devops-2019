@@ -1,0 +1,3 @@
+FROM alpine
+COPY app/index.js /app/index.js
+CMD ["node", "/app/index.js", "ciao"]
